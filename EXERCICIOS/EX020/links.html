@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+           color: red; 
+           text-decoration: none;
+           font-weight: bold;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: chartreuse;
+        }
+        .especial{
+            background-color: rgba(220, 20, 60, 0.459);
+        }
+        .especial::before{
+            content:☛ ;
+        }
+        .especial::after{
+            content:☚ ;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Liinks </h1>
+    <ul>
+        <li><a href="https://www.youtube.com/user/cursosemvideo/playlists" target="_blank">youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="-blank" class="especial"  >curso em video</a></li>
+        <li><a href="https://www.terra.com.br/" target="_blank">terra</a></li>
+    </ul>
+    
+</body>
+</html>
